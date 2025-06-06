@@ -1,0 +1,41 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "quiz": "Quiz",
+    "games": "Juegos",
+    "profile": "Perfil",
+    "logout": "Cerrar sesión",
+    "back": "Atrás"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "join": "Unirse",
+    "start": "Comenzar",
+    "finish": "Terminar",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "yes": "Sí",
+    "no": "No",
+    "comingSoon": "Próximamente..."
+  },
+  "home": {
+    "title": "Party Games",
+    "subtitle": "¡La plataforma definitiva de juegos multijugador para fiestas! Juega quizzes, Verdad o Reto y mucho más con tus amigos.",
+    "createAccount": "¡Crea una cuenta para funciones avanzadas o juega como invitado!",
+    "playNow": "Jugar ahora →"
+  },
+  "language": {
+    "title": "Idioma",
+    "german": "Deutsch",
+    "english": "English",
+    "spanish": "Español",
+    "french": "Français"
+  }
+}

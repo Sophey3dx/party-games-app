@@ -1,0 +1,41 @@
+{
+  "navigation": {
+    "home": "Home",
+    "quiz": "Quiz",
+    "games": "Games",
+    "profile": "Profile",
+    "logout": "Logout",
+    "back": "Back"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "join": "Join",
+    "start": "Start",
+    "finish": "Finish",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No",
+    "comingSoon": "Coming Soon..."
+  },
+  "home": {
+    "title": "Party Games",
+    "subtitle": "The ultimate multiplayer party game platform! Play quizzes, Truth or Dare and much more with your friends.",
+    "createAccount": "Create an account for advanced features or play as a guest!",
+    "playNow": "Play now →"
+  },
+  "language": {
+    "title": "Language",
+    "german": "Deutsch",
+    "english": "English",
+    "spanish": "Español",
+    "french": "Français"
+  }
+}

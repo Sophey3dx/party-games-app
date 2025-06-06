@@ -1,0 +1,41 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "quiz": "Quiz",
+    "games": "Spiele",
+    "profile": "Profil",
+    "logout": "Abmelden",
+    "back": "Zurück"
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Fehler",
+    "success": "Erfolgreich",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "join": "Beitreten",
+    "start": "Starten",
+    "finish": "Beenden",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "yes": "Ja",
+    "no": "Nein",
+    "comingSoon": "Bald verfügbar..."
+  },
+  "home": {
+    "title": "Party Games",
+    "subtitle": "Die ultimative Multiplayer Party Game Platform! Spiele Quizzes, Truth or Dare und vieles mehr mit deinen Freunden.",
+    "createAccount": "Erstelle einen Account für erweiterte Features oder spiele als Gast!",
+    "playNow": "Jetzt spielen →"
+  },
+  "language": {
+    "title": "Sprache",
+    "german": "Deutsch",
+    "english": "English",
+    "spanish": "Español",
+    "french": "Français"
+  }
+}

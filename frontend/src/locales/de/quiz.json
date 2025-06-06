@@ -1,0 +1,31 @@
+{
+  "title": "Quiz Battle",
+  "description": "Teste dein Wissen in verschiedenen Kategorien",
+  "game": {
+    "question": "Frage {{current}} von {{total}}",
+    "score": "Punkte: {{score}}",
+    "timeLeft": "{{time}}s",
+    "finished": "Quiz Beendet!",
+    "congratulations": "Glückwunsch! 🎉",
+    "result": "Du hast {{score}} von {{total}} Fragen richtig beantwortet!",
+    "percentage": "Das sind {{percent}}%",
+    "playAgain": "Nochmal spielen",
+    "categories": {
+      "geography": "Geografie",
+      "science": "Wissenschaft",
+      "literature": "Literatur",
+      "history": "Geschichte",
+      "nature": "Natur",
+      "sports": "Sport",
+      "movies": "Filme",
+      "music": "Musik",
+      "technology": "Technologie",
+      "food": "Essen"
+    }
+  },
+  "modes": {
+    "singleplayer": "Einzelspieler",
+    "multiplayer": "Mehrspieler",
+    "practice": "Übungsmodus"
+  }
+}
