@@ -154,7 +154,7 @@ export const MultiplayerProvider: React.FC<MultiplayerProviderProps> = ({ childr
 
   // Initialize socket connection
   useEffect(() => {
-    const newSocket = io(process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3001');
+    const newSocket = io(process.env.NODE_ENV === 'production' ? '' : 'http://217.76.60.210:3001');
     
     newSocket.on('connect', () => {
       console.log('Connected to multiplayer server');

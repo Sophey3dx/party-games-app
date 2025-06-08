@@ -8,6 +8,9 @@ import QuizGame from './components/Quiz/QuizGame';
 import UserProfile from './components/UserStats/UserProfile';
 import MultiplayerLobby from './components/Multiplayer/MultiplayerLobby';
 import GameRoom from './components/Multiplayer/GameRoom';
+import TruthOrDareGame from './components/Games/TruthOrDareGame';
+import NeverHaveIEverGame from './components/Games/NeverHaveIEverGame';
+import MostLikelyToGame from './components/Games/MostLikelyToGame';
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
               <Route path="/profile" element={<UserProfile />} />
               <Route path="/multiplayer" element={<MultiplayerLobby />} />
               <Route path="/multiplayer/room/:roomId" element={<GameRoom />} />
+              <Route path="/truth-or-dare" element={<TruthOrDareGame />} />
+              <Route path="/never-have-i-ever" element={<NeverHaveIEverGame />} />
+              <Route path="/most-likely-to" element={<MostLikelyToGame />} />
             </Routes>
           </Router>
         </div>

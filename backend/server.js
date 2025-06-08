@@ -14,7 +14,7 @@ const server = http.createServer(app);
 // Socket.IO setup with CORS
 const io = socketIo(server, {
   cors: {
-    origin: process.env.CLIENT_URL || "http://localhost:3000",
+    origin: process.env.CLIENT_URL || "https://217.76.60.210:3000",
     methods: ["GET", "POST"]
   }
 });
@@ -23,7 +23,7 @@ const io = socketIo(server, {
 const sequelize = new Sequelize(
   process.env.DB_NAME || 'partygames',
   process.env.DB_USER || 'gameuser', 
-  process.env.DB_PASS || 'superSecurePassword123!',
+  process.env.DB_PASS || 'Duschlampe321',
   {
     host: process.env.DB_HOST || 'localhost',
     port: process.env.DB_PORT || 5432,
@@ -190,7 +190,7 @@ User.prototype.generateToken = function() {
 User.prototype.toJSON = function() { const values = Object.assign({}, this.get()); delete values.password; return values; };
 
 // MIDDLEWARE
-app.use(cors({ origin: process.env.CLIENT_URL || "http://localhost:3000" }));
+app.use(cors({ origin: process.env.CLIENT_URL || "http://217.76.60.210:3000" }));
 app.use(express.json());
 
 const authenticateToken = (req, res, next) => {
