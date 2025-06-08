@@ -45,6 +45,7 @@ interface Room {
 interface Question {
   question: string;
   options: string[];
+  correct: number; // This is the correct property name that matches backend
   category: string;
   difficulty: string;
 }

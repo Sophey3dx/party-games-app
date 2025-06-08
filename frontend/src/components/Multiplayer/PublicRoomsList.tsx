@@ -1,4 +1,4 @@
-// src/components/Multiplayer/PublicRoomsList.tsx
+// src/components/Multiplayer/PublicRoomsList.tsx - FIXED VERSION
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useMultiplayer } from '../../context/MultiplayerContext';
@@ -185,10 +185,9 @@ const PublicRoomsList: React.FC<PublicRoomsListProps> = ({ rooms, loading }) => 
                       <div
                         key={index}
                         style={{ 
-                          fontSize: '16px',
-                          title: player.username
+                          fontSize: '16px'
                         }}
-                        title={player.username}
+                        // REMOVED: title attribute that caused the error
                       >
                         {player.avatar}
                       </div>
